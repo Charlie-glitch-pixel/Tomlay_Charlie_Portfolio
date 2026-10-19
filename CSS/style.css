@@ -1,0 +1,162 @@
+/* for header */
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+.header{
+    background-color: maroon;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+    list-style: none;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+span{
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+h1{
+    color: brown;
+}
+
+
+header img{
+    margin-top: 10px;
+    height: 250px;
+    width: 250px;
+    vertical-align: middle;
+    border: 2px;
+    border-radius: 500px;
+}
+
+
+body{
+    background-color: pink;
+}
+
+a{
+    color: lightskyblue;
+    font-weight: bold;
+    font-size: medium;
+}
+
+.about{
+    border: 2px solid black;
+    border-radius: 40px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+.skill{
+    border: 2px solid black;
+    border-radius: 40px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.hobby{
+    border: 2px solid black;
+    border-radius: 40px;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+.message{
+    margin-top: 10px;
+    border: 2px solid black;
+    border-radius: 40px;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+
+.project1{
+     display: flex;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 40px;
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+
+    
+}
+
+.profile1 {
+
+    border: 3px solid black;
+    border-radius: 50px;
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    
+
+}
+
+.profile1:hover {
+    color: blue;
+    transform: scale(.90);
+    transition: .5s ease;
+    box-sizing: border-box;
+    box-shadow: red;
+}
+
+.profile2 {
+
+    border: 3px solid black;
+    border-radius: 50px;
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+}
+
+.profile2:hover {
+    color: blue;
+    transform: scale(.90);
+    transition: .5s ease;
+}
+
+.profile3 {
+
+    border: 3px solid black;
+    border-radius: 50px;
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+}
+
+.profile3:hover {
+    color: blue;
+    transform: scale(.90);
+    transition: .5s ease;
+}
+
+
+
+img{
+    height: 250px;
+    width: 300px;
+    border: 3px;
+    border-radius: 50%; 
+    object-fit: cover;
+}
+
+h1{
+    text-align: center;
+}
